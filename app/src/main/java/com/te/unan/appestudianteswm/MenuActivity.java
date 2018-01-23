@@ -21,7 +21,7 @@ public class MenuActivity extends AppCompatActivity {
         nivel1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),Main2Activity.class);
+                Intent intent = new Intent(getApplicationContext(),MenuNivel1.class);
                 startActivity(intent);
             }
         });
