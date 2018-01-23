@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.te.unan.appestudianteswm.MenuActivity"
+    android:orientation="horizontal"
+    android:background="@drawable/fondomenu">
+
+    <LinearLayout
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+
+        <ImageView
+        android:id="@+id/nivel1"
+        android:layout_width="108dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/nivel1"
+        tools:ignore="VectorDrawableCompat"
+        android:layout_marginRight="30pt"
+        android:layout_marginLeft="25pt"
+        />
+
+        <ImageView
+            android:id="@+id/nivel2"
+            android:layout_width="108dp"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/nivel2"
+            tools:ignore="VectorDrawableCompat"
+            android:layout_marginRight="30pt"
+
+            />
+
+        <ImageView
+            android:id="@+id/nivel3"
+            android:layout_width="108dp"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/nivel3"
+            tools:ignore="VectorDrawableCompat"
+            android:layout_marginRight="20pt"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
