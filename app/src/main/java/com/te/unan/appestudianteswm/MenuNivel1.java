@@ -11,7 +11,7 @@ import android.widget.ListView;
 
 public class MenuNivel1 extends AppCompatActivity {
 
-    ImageView act1;
+    ImageView act1,act2,act3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,11 +19,29 @@ public class MenuNivel1 extends AppCompatActivity {
         setContentView(R.layout.activity_menu_nivel1);
 
         act1 = (ImageView) findViewById(R.id.actividad1);
+        act2 = (ImageView) findViewById(R.id.actividad2);
+        act3 = (ImageView) findViewById(R.id.actividad3);
 
         act1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent= new Intent(getApplicationContext(),Act_1_ini.class);
+                startActivity(intent);
+            }
+        });
+
+        act2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),Act_2_ini.class);
+                startActivity(intent);
+            }
+        });
+
+        act3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),Act_1_ini.class);
                 startActivity(intent);
             }
         });
