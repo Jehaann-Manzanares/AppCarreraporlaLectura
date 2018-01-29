@@ -20,6 +20,16 @@
 
         />
 
+    <fragment
+        android:id="@+id/fragment1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="com.te.unan.appestudianteswm.fragmento"
+        android:layout_gravity="center">
+
+
+    </fragment>
+
 
 
 </LinearLayout>
