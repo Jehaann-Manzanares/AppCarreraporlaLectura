@@ -14,6 +14,8 @@ public class fragmento extends Fragment {
      * Nueva instancia del fragmento
      * */
     public static fragmento newInstance() {
+
+
         return new fragmento();
     }
 

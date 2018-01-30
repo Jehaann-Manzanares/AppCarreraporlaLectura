@@ -5,20 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.te.unan.appestudianteswm.Act_1_ini"
-    android:background="@drawable/fondomenuv2"
     >
 
-    <ImageView
-        android:id="@+id/btnplay"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:foregroundGravity="center"
-        android:src="@drawable/btnplay"
-        android:layout_gravity="center"
-        android:layout_marginLeft="230dp"
-        android:layout_marginTop="50dp"
 
-        />
 
     <fragment
         android:id="@+id/fragment1"
@@ -26,7 +15,6 @@
         android:layout_height="wrap_content"
         class="com.te.unan.appestudianteswm.fragmento"
         android:layout_gravity="center">
-
 
     </fragment>
 
