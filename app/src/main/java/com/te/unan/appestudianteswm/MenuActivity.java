@@ -23,6 +23,7 @@ public class MenuActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),MenuNivel1.class);
                 startActivity(intent);
+
             }
         });
     }

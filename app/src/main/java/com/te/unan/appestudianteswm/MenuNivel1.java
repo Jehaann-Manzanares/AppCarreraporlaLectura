@@ -26,19 +26,32 @@ public class MenuNivel1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent= new Intent(getApplicationContext(),Act_1_ini.class);
+                intent.putExtra("id","act1");
                 startActivity(intent);
+
+
             }
         });
 
         act2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),Act_2_ini.class);
+                Intent intent = new Intent(getApplicationContext(),Act_1_ini.class);
+                intent.putExtra("id","act2");
                 startActivity(intent);
             }
         });
 
 
 
+
+
+    }
+
+    @Override
+    public void onBackPressed()
+    {
+        // Añade más funciones si fuese necesario
+        super.onBackPressed();  // Invoca al método
     }
 }

@@ -22,7 +22,7 @@
 
     <include layout="@layout/content_main2" />
 
-    <android.support.design.widget.FloatingActionButton
+    <!--<android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -31,6 +31,6 @@
         app:srcCompat="@android:drawable/ic_dialog_dialer"
         android:tooltipText="Siguiente"
         app:backgroundTint="@color/colorverde"
-        />
+        />-->
 
 </android.support.design.widget.CoordinatorLayout>

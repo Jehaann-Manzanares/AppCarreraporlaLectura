@@ -5,18 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.te.unan.appestudianteswm.Act_1_ini"
+
     >
 
 
-
-    <fragment
+    <FrameLayout
         android:id="@+id/fragment1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         class="com.te.unan.appestudianteswm.fragmento"
         android:layout_gravity="center">
 
-    </fragment>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="com.te.unan.appestudianteswm.fragmento2">
+
+    </FrameLayout>
 
 
 
