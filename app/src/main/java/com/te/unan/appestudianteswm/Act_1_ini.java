@@ -26,7 +26,7 @@ public class Act_1_ini extends AppCompatActivity {
 
         Bundle bundle = getIntent().getExtras();
         String d1 = bundle.getString("id");
-        Toast toast;
+
 
 
         switch (d1)
@@ -55,6 +55,45 @@ public class Act_1_ini extends AppCompatActivity {
                 // TODO: Add the SimpleFragment.
 
                 fragmentTransaction2.add(R.id.fragment2,simplefragment2).addToBackStack(null).commit();
+                break;
+
+            case "act3":
+
+                fragmento3 simplefragment3 = fragmento3.newInstance();
+                // TODO: Get the FragmentManager and start a transaction.
+
+
+                android.support.v4.app.FragmentManager fragmentManager3 = getSupportFragmentManager();
+                android.support.v4.app.FragmentTransaction fragmentTransaction3 = fragmentManager3.beginTransaction();
+                // TODO: Add the SimpleFragment.
+
+                fragmentTransaction3.add(R.id.fragment3,simplefragment3).addToBackStack(null).commit();
+                break;
+
+            case "act4":
+
+                fragmento4 simplefragment4 = fragmento4.newInstance();
+                // TODO: Get the FragmentManager and start a transaction.
+
+
+                android.support.v4.app.FragmentManager fragmentManager4 = getSupportFragmentManager();
+                android.support.v4.app.FragmentTransaction fragmentTransaction4 = fragmentManager4.beginTransaction();
+                // TODO: Add the SimpleFragment.
+
+                fragmentTransaction4.add(R.id.fragment4,simplefragment4).addToBackStack(null).commit();
+                break;
+
+            case "act5":
+
+                fragmento5 simplefragment5 = fragmento5.newInstance();
+                // TODO: Get the FragmentManager and start a transaction.
+
+
+                android.support.v4.app.FragmentManager fragmentManager5 = getSupportFragmentManager();
+                android.support.v4.app.FragmentTransaction fragmentTransaction5 = fragmentManager5.beginTransaction();
+                // TODO: Add the SimpleFragment.
+
+                fragmentTransaction5.add(R.id.fragment4,simplefragment5).addToBackStack(null).commit();
                 break;
 
         }

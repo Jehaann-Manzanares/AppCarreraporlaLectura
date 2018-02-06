@@ -5,15 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.te.unan.appestudianteswm.MenuNivel1">
+    tools:context="com.te.unan.appestudianteswm.MenuNivel1"
+    android:background="@drawable/fondo_nivel_1">
 
 
     <!--LINER PRINCIPALCONTENEDOR -->
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="45dp"
-        android:layout_marginTop="120dp">
+        android:layout_marginTop="160dp"
+        android:layout_marginRight="45dp">
         <!--SCROLLVIEW PARA AGREGAR ACTIVIDADES -->
         <ScrollView
             android:layout_width="wrap_content"
@@ -22,7 +24,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_marginLeft="65dp">
 
                 <!--LINER PARA ORDENAR LAS ACTIVIDADES DE FORMA HORIZONTAL -->
                 <LinearLayout
@@ -38,23 +41,20 @@
 
                         <ImageView
                             android:id="@+id/actividad1"
-                            android:layout_width="108dp"
-                            android:layout_height="120dp"
+                            android:layout_width="360dp"
+                            android:layout_height="160dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/nivel1" />
+                            android:background="@drawable/act_1"
+                            />
 
                         <ImageView
                             android:id="@+id/actividad2"
-                            android:layout_width="108dp"
-                            android:layout_height="120dp"
+                            android:layout_width="360dp"
+                            android:layout_height="160dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/nivel1" />
+                            android:background="@drawable/act_2" />
 
-                        <ImageView
-                            android:id="@+id/actividad3"
-                            android:layout_width="108dp"
-                            android:layout_height="120dp"
-                            android:background="@drawable/nivel1" />
+
 
                     </LinearLayout>
 
@@ -65,23 +65,19 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:layout_width="108dp"
-                            android:layout_height="120dp"
+                            android:id="@+id/actividad3"
+                            android:layout_width="360dp"
+                            android:layout_height="160dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/nivel1"
-
+                            android:background="@drawable/act_1"
                             />
 
                         <ImageView
-                            android:layout_width="108dp"
-                            android:layout_height="120dp"
+                            android:id="@+id/actividad4"
+                            android:layout_width="360dp"
+                            android:layout_height="160dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/nivel1" />
-
-                        <ImageView
-                            android:layout_width="108dp"
-                            android:layout_height="120dp"
-                            android:background="@drawable/nivel1" />
+                            android:background="@drawable/act_2" />
 
                     </LinearLayout>
 
@@ -92,25 +88,17 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:layout_width="108dp"
-                            android:layout_height="120dp"
+                            android:id="@+id/actividad5"
+                            android:layout_width="360dp"
+                            android:layout_height="160dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/nivel1"
+                            android:background="@drawable/act_1"
 
                             />
 
-                        <ImageView
-                            android:layout_width="108dp"
-                            android:layout_height="120dp"
-                            android:layout_marginRight="50dp"
-                            android:background="@drawable/nivel1" />
 
-                        <ImageView
-                            android:layout_width="108dp"
-                            android:layout_height="120dp"
-                            android:background="@drawable/nivel1" />
 
-                    </LinearLayout>
+                           </LinearLayout>
 
 
                 </LinearLayout>

@@ -33,7 +33,8 @@ public class fragmento extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.fragment_mifragmento, container, false);
+        int fr = R.layout.fragment_mifragmento;
+        View view = inflater.inflate(fr, container, false);
 
 
         ImageView btnact1 = (ImageView) view.findViewById(R.id.btnplayA);
@@ -52,6 +53,7 @@ public class fragmento extends Fragment {
 
         return view;
     }
+
 
 
 

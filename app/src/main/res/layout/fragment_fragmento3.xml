@@ -1,25 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
-    android:id="@+id/f1"
+<FrameLayout android:id="@+id/fragment3"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="20dp"
-    android:background="@drawable/fondomenuv2"
     tools:context="com.te.unan.appestudianteswm.Act_1_ini"
+    android:background="@drawable/fondomenu"
     >
 
-
-
     <ImageView
-        android:id="@+id/btnplayA"
+        android:id="@+id/btnplayB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:foregroundGravity="center"
-        android:src="@drawable/btnplay"
-        android:layout_gravity="center"
+        android:background="@drawable/btnplay"
+        android:layout_gravity="center"/>
 
-        />
+
 
 </FrameLayout>

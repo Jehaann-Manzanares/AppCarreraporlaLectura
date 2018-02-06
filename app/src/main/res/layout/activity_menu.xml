@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.te.unan.appestudianteswm.MenuActivity"
     android:orientation="horizontal"
-    android:background="@drawable/fondomenuv2">
+    android:background="@drawable/fondo_bienvenida">
 
     <LinearLayout
         android:layout_marginTop="250dp"
@@ -25,7 +25,7 @@
         app:srcCompat="@drawable/nivel1"
         tools:ignore="VectorDrawableCompat"
         android:layout_marginRight="30pt"
-        android:layout_marginLeft="100pt"
+        android:layout_marginLeft="80pt"
         />
 
         <ImageView

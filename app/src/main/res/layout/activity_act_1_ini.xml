@@ -19,10 +19,33 @@
     </FrameLayout>
 
     <FrameLayout
-        android:id="@+id/fragment2"
+    android:id="@+id/fragment2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    class="com.te.unan.appestudianteswm.fragmento2">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        class="com.te.unan.appestudianteswm.fragmento2">
+        class="com.te.unan.appestudianteswm.fragmento3">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="com.te.unan.appestudianteswm.fragmento4">
+
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/fragment5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="com.te.unan.appestudianteswm.fragmento5">
 
     </FrameLayout>
 
