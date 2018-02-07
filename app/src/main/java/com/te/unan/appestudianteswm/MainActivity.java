@@ -12,7 +12,7 @@ import java.util.Timer;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Timer timer;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

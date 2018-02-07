@@ -16,7 +16,7 @@
        android:textSize="60px"
        android:gravity="center"
        tools:ignore="MissingConstraints"
-       android:background="@drawable/fondosplasv2"/>
+       android:background="@drawable/fondobienvenida"/>
 
 
 
