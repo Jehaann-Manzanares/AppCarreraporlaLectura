@@ -6,10 +6,10 @@
     android:layout_height="match_parent"
     tools:context="com.te.unan.appestudianteswm.MenuActivity"
     android:orientation="horizontal"
-    android:background="@drawable/fondo_bienvenida">
+    android:background="@drawable/fondo_menu">
 
     <LinearLayout
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="200dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -20,18 +20,18 @@
 
         <ImageView
         android:id="@+id/nivel1"
-            android:layout_width="158dp"
-            android:layout_height="170dp"
+            android:layout_width="188dp"
+            android:layout_height="200dp"
         app:srcCompat="@drawable/nivel1"
         tools:ignore="VectorDrawableCompat"
         android:layout_marginRight="30pt"
-        android:layout_marginLeft="80pt"
+        android:layout_marginLeft="70pt"
         />
 
         <ImageView
             android:id="@+id/nivel2"
-            android:layout_width="158dp"
-            android:layout_height="170dp"
+            android:layout_width="188dp"
+            android:layout_height="200dp"
             app:srcCompat="@drawable/nivel2"
             tools:ignore="VectorDrawableCompat"
             android:layout_marginRight="30pt"
@@ -40,8 +40,8 @@
 
         <ImageView
             android:id="@+id/nivel3"
-            android:layout_width="158dp"
-            android:layout_height="170dp"
+            android:layout_width="188dp"
+            android:layout_height="200dp"
             app:srcCompat="@drawable/nivel3"
             tools:ignore="VectorDrawableCompat"
             android:layout_marginRight="20pt"
