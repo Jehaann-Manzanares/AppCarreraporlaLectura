@@ -104,7 +104,7 @@ public class Act_1_ini extends AppCompatActivity {
 
     }
 
-    public void displayFragment() {
+   /* public void displayFragment() {
         fragmento simpleFragment = fragmento.newInstance();
         // TODO: Get the FragmentManager and start a transaction.
 
@@ -137,6 +137,6 @@ public class Act_1_ini extends AppCompatActivity {
         isFragmentDisplayed = false;
 
     }
-
+*/
 
 }

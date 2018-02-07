@@ -42,17 +42,17 @@
                         <ImageView
                             android:id="@+id/actividad1"
                             android:layout_width="360dp"
-                            android:layout_height="160dp"
+                            android:layout_height="155dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/act_1"
+                            android:background="@drawable/btn_completar"
                             />
 
                         <ImageView
                             android:id="@+id/actividad2"
                             android:layout_width="360dp"
-                            android:layout_height="160dp"
+                            android:layout_height="155dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/act_2" />
+                            android:background="@drawable/btn_dictado" />
 
 
 
@@ -67,17 +67,17 @@
                         <ImageView
                             android:id="@+id/actividad3"
                             android:layout_width="360dp"
-                            android:layout_height="160dp"
+                            android:layout_height="155dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/act_1"
+                            android:background="@drawable/btn_lectura"
                             />
 
                         <ImageView
                             android:id="@+id/actividad4"
                             android:layout_width="360dp"
-                            android:layout_height="160dp"
+                            android:layout_height="155dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/act_2" />
+                            android:background="@drawable/btn_mapainteractivo" />
 
                     </LinearLayout>
 
@@ -90,9 +90,9 @@
                         <ImageView
                             android:id="@+id/actividad5"
                             android:layout_width="360dp"
-                            android:layout_height="160dp"
+                            android:layout_height="155dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/act_1"
+                            android:background="@drawable/btn_ruletadepalabras"
 
                             />
 
