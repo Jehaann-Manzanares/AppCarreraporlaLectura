@@ -33,8 +33,8 @@ public class fragmento extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        int fr = R.layout.fragment_mifragmento;
-        View view = inflater.inflate(fr, container, false);
+
+        View view = inflater.inflate(R.layout.fragment_mifragmento, container, false);
 
 
         ImageView btnact1 = (ImageView) view.findViewById(R.id.btnplayA);
@@ -43,7 +43,7 @@ public class fragmento extends Fragment {
             public void onClick(View view) {
 
                 Intent intent = new Intent(getContext(),Main2Activity.class);
-                intent.putExtra("URL","file:///android_asset/submodulo_6_ya se leer/story_html5.html");
+                intent.putExtra("URL","file:///android_asset/pagina/index.html");
                 startActivity(intent);
 
                 getActivity().finish();

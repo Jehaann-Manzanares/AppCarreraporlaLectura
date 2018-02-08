@@ -21,20 +21,24 @@
         <activity
             android:name=".Main2Activity"
             android:label="@string/title_activity_main2"
-            android:screenOrientation="sensorLandscape"
+            android:screenOrientation="sensor"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MenuActivity"
             android:screenOrientation="sensorLandscape" />
         <activity
             android:name=".MenuNivel1"
-            android:screenOrientation="sensorLandscape"></activity>
+            android:screenOrientation="sensorLandscape" />
         <activity
             android:name=".Act_1_ini"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".Act_2_ini"
             android:screenOrientation="sensorLandscape"></activity>
         <activity
             android:screenOrientation="sensorLandscape"
-            android:name=".Act_2_ini">
+            android:name=".MenuNivel2">
+
 
         </activity>
     </application>
