@@ -43,7 +43,7 @@ public class fragmento extends Fragment {
             public void onClick(View view) {
 
                 Intent intent = new Intent(getContext(),Main2Activity.class);
-                intent.putExtra("URL","file:///android_asset/pagina/index.html");
+                intent.putExtra("URL","file:///android_asset/index.html");
                 startActivity(intent);
 
                 getActivity().finish();

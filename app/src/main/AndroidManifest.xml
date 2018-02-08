@@ -34,11 +34,12 @@
             android:screenOrientation="sensorLandscape" />
         <activity
             android:name=".Act_2_ini"
-            android:screenOrientation="sensorLandscape"></activity>
+            android:screenOrientation="sensorLandscape" />
         <activity
-            android:screenOrientation="sensorLandscape"
-            android:name=".MenuNivel2">
-
+            android:name=".MenuNivel2"
+            android:screenOrientation="sensorLandscape"></activity>
+        <activity android:name=".MenuNivel3"
+            android:screenOrientation="sensorLandscape">
 
         </activity>
     </application>
