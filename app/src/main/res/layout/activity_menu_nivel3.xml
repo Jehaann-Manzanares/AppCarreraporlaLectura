@@ -42,7 +42,7 @@
                             android:layout_width="360dp"
                             android:layout_height="155dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/btn_completar_n3"
+                            android:background="@drawable/btn_adivinanza_n3"
                             />
 
                         <ImageView
@@ -50,7 +50,7 @@
                             android:layout_width="360dp"
                             android:layout_height="155dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/btn_dictado" />
+                            android:background="@drawable/btn_completar_n3" />
 
 
 
@@ -67,7 +67,7 @@
                             android:layout_width="360dp"
                             android:layout_height="155dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/btn_lectura"
+                            android:background="@drawable/btn_crusigrama_n3"
                             />
 
                         <ImageView
@@ -75,7 +75,7 @@
                             android:layout_width="360dp"
                             android:layout_height="155dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/btn_mapainteractivo" />
+                            android:background="@drawable/btn_dictado_n3" />
 
                     </LinearLayout>
 
@@ -90,7 +90,7 @@
                             android:layout_width="360dp"
                             android:layout_height="155dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/btn_ruletadepalabras"
+                            android:background="@drawable/btn_ordenar_letras_n3"
 
                             />
                         <ImageView
@@ -98,7 +98,7 @@
                             android:layout_width="360dp"
                             android:layout_height="155dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/btn_ruletadepalabras"
+                            android:background="@drawable/btn_sopa_letras_n3"
 
                             />
 

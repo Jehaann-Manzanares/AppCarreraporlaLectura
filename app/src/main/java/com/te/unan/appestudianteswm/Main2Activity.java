@@ -36,7 +36,7 @@ public class Main2Activity extends AppCompatActivity {
 
         webView= (WebView)findViewById(R.id.wv);
         webView.getSettings().setJavaScriptEnabled(true);
-        /*webView.getSettings().setAppCacheEnabled(true);
+        webView.getSettings().setAppCacheEnabled(true);
         webView.getSettings().getJavaScriptCanOpenWindowsAutomatically();
         webView.getSettings().supportMultipleWindows();
         webView.getSettings().setAllowContentAccess(true);
@@ -46,7 +46,7 @@ public class Main2Activity extends AppCompatActivity {
         webView.getSettings().setSupportZoom(true);
         webView.getSettings().setAppCacheMaxSize(5*1024*1024);
         webView.getSettings().setRenderPriority(WebSettings.RenderPriority.HIGH);
-        webView.getSettings().setAllowFileAccess(true);*/
+        webView.getSettings().setAllowFileAccess(true);
 
         Bundle bundle = getIntent().getExtras();
         url = bundle.getString("URL");
