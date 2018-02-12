@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.te.unan.appestudianteswm.MenuNivel2"
-    android:background="@drawable/fondo_nivel_1">
+    android:background="@drawable/fondo_nivel_2">
 
     <LinearLayout
         android:layout_width="match_parent"

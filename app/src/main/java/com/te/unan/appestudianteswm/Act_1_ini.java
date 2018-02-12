@@ -15,7 +15,7 @@ import android.widget.Toast;
 
 public class Act_1_ini extends AppCompatActivity {
 
-    boolean isFragmentDisplayed =false;
+
 
 
     @Override
