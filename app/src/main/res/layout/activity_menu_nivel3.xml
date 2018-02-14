@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.te.unan.appestudianteswm.MenuNivel3"
+    android:background="@drawable/fondo_nive_3"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginRight="45dp">
+        <!--SCROLLVIEW PARA AGREGAR ACTIVIDADES -->
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <!--LINER PARA ORDENAR LAS ACTIVIDADES DE FORMA HORIZONTAL -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="65dp">
+
+                <!--LINER PARA ORDENAR LAS ACTIVIDADES DE FORMA HORIZONTAL -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!--LINER PARA AGREGAR ICONOS DE LAS ACTIVIDADES 1-->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/actividad1"
+                            android:layout_width="360dp"
+                            android:layout_height="155dp"
+                            android:layout_marginRight="50dp"
+                            android:background="@drawable/btn_adivinanza_n3"
+                            />
+
+                        <ImageView
+                            android:id="@+id/actividad2"
+                            android:layout_width="360dp"
+                            android:layout_height="155dp"
+                            android:layout_marginRight="50dp"
+                            android:background="@drawable/btn_completar_n3" />
+
+
+
+                    </LinearLayout>
+
+                    <!--LINER PARA AGREGAR ICONOS DE LAS ACTIVIDADES 2-->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/actividad3"
+                            android:layout_width="360dp"
+                            android:layout_height="155dp"
+                            android:layout_marginRight="50dp"
+                            android:background="@drawable/btn_crusigrama_n3"
+                            />
+
+                        <ImageView
+                            android:id="@+id/actividad4"
+                            android:layout_width="360dp"
+                            android:layout_height="155dp"
+                            android:layout_marginRight="50dp"
+                            android:background="@drawable/btn_dictado_n3" />
+
+                    </LinearLayout>
+
+                    <!--LINER PARA AGREGAR ICONOS DE LAS ACTIVIDADES 3-->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/actividad5"
+                            android:layout_width="360dp"
+                            android:layout_height="155dp"
+                            android:layout_marginRight="50dp"
+                            android:background="@drawable/btn_ordenar_letras_n3"
+
+                            />
+                        <ImageView
+                            android:id="@+id/actividad6"
+                            android:layout_width="360dp"
+                            android:layout_height="155dp"
+                            android:layout_marginRight="50dp"
+                            android:background="@drawable/btn_sopa_letras_n3"
+
+                            />
+
+
+
+                    </LinearLayout>
+                    <!--LINER PARA AGREGAR ICONOS DE LAS ACTIVIDADES 3-->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/actividad7"
+                            android:layout_width="360dp"
+                            android:layout_height="155dp"
+                            android:layout_marginRight="50dp"
+                            android:background="@drawable/btn_ruletadepalabras"
+
+                            />
+                        <ImageView
+                            android:id="@+id/actividad8"
+                            android:layout_width="360dp"
+                            android:layout_height="155dp"
+                            android:layout_marginRight="50dp"
+                            android:background="@drawable/btn_ruletadepalabras"
+
+                            />
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

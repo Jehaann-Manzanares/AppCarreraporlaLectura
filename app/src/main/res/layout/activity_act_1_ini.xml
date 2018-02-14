@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.te.unan.appestudianteswm.Act_1_ini"
+
+    >
+
+
+    <FrameLayout
+        android:id="@+id/fragment1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="com.te.unan.appestudianteswm.fragmento"
+        android:layout_gravity="center">
+
+    </FrameLayout>
+
+    <FrameLayout
+    android:id="@+id/fragment2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    class="com.te.unan.appestudianteswm.fragmento2">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="com.te.unan.appestudianteswm.fragmento3">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="com.te.unan.appestudianteswm.fragmento4">
+
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/fragment5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="com.te.unan.appestudianteswm.fragmento5">
+
+    </FrameLayout>
+
+
+
+</LinearLayout>
