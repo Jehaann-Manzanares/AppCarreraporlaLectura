@@ -37,15 +37,14 @@ public class fragmento extends Fragment {
         View view = inflater.inflate(R.layout.fragment_mifragmento, container, false);
 
 
-        ImageView btnact1 = (ImageView) view.findViewById(R.id.btnplayA);
+        ImageView btnact1 = (ImageView) view.findViewById(R.id.btnplay1);
         btnact1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
                 Intent intent = new Intent(getContext(),Main2Activity.class);
-                intent.putExtra("URL","file:///android_asset/index.html");
+                intent.putExtra("URL","file:///android_asset/Nivel1/desorden-aulas-presentacion/actividad.html");
                 startActivity(intent);
-
                 getActivity().finish();
 
 

@@ -34,14 +34,14 @@ public class fragmento4 extends Fragment {
 
         View view = inflater.inflate(R.layout.fragmento4, container, false);
 
-        ImageView btnplayB = (ImageView) view.findViewById(R.id.btnplayB);
+        ImageView btnplayB = (ImageView) view.findViewById(R.id.btnplay4);
 
         btnplayB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
                 Intent intent = new Intent(getContext(), Main2Activity.class);
-                intent.putExtra("URL", "file:///android_asset/act_2/actividad.html");
+                intent.putExtra("URL", "file:///android_asset/Nivel1/la-cigarra-y-la-hormiga-presentacion/actividad.html");
                 startActivity(intent);
                 getActivity().finish();
             }

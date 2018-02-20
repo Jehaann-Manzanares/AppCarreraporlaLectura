@@ -5,11 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.te.unan.appestudianteswm.Act_1_ini"
-    android:background="@drawable/fondo_act_4"
+    android:background="@drawable/fondo_act4_n1"
     >
 
     <ImageView
-        android:id="@+id/btnplayB"
+        android:id="@+id/btnplay4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/btnplay"

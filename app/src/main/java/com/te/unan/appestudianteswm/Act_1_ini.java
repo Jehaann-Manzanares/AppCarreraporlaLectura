@@ -13,6 +13,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+
 public class Act_1_ini extends AppCompatActivity {
 
 
@@ -37,9 +38,7 @@ public class Act_1_ini extends AppCompatActivity {
             case "act1":
                 fragmento simpleFragment = fragmento.newInstance();
                 // TODO: Get the FragmentManager and start a transaction.
-
                 // TODO: Add the SimpleFragment.
-
                 fragmentTransaction.add(R.id.fragment1,simpleFragment).addToBackStack(null).commit();
 
                 break;
@@ -47,9 +46,6 @@ public class Act_1_ini extends AppCompatActivity {
             case "act2":
 
                 fragmento2 simplefragment2 = fragmento2.newInstance();
-                // TODO: Get the FragmentManager and start a transaction.
-
-                // TODO: Add the SimpleFragment.
 
                 fragmentTransaction.add(R.id.fragment2,simplefragment2).addToBackStack(null).commit();
                 break;
@@ -57,8 +53,6 @@ public class Act_1_ini extends AppCompatActivity {
             case "act3":
 
                 fragmento3 simplefragment3 = fragmento3.newInstance();
-                // TODO: Get the FragmentManager and start a transaction.
-                // TODO: Add the SimpleFragment.
 
                 fragmentTransaction.add(R.id.fragment3,simplefragment3).addToBackStack(null).commit();
                 break;
@@ -66,8 +60,6 @@ public class Act_1_ini extends AppCompatActivity {
             case "act4":
 
                 fragmento4 simplefragment4 = fragmento4.newInstance();
-                // TODO: Get the FragmentManager and start a transaction.
-                // TODO: Add the SimpleFragment.
 
                 fragmentTransaction.add(R.id.fragment4,simplefragment4).addToBackStack(null).commit();
                 break;
@@ -75,11 +67,41 @@ public class Act_1_ini extends AppCompatActivity {
             case "act5":
 
                 fragmento5 simplefragment5 = fragmento5.newInstance();
-                // TODO: Get the FragmentManager and start a transaction.
-                // TODO: Add the SimpleFragment.
 
-                fragmentTransaction.add(R.id.fragment4,simplefragment5).addToBackStack(null).commit();
+                fragmentTransaction.add(R.id.fragment5,simplefragment5).addToBackStack(null).commit();
                 break;
+
+            case "act6":
+
+                fragmento6 simpleFragment6 = fragmento6.newInstance();
+
+                fragmentTransaction.add(R.id.fragment6,simpleFragment6).addToBackStack(null).commit();
+
+                break;
+
+            case "act7":
+
+                fragmento7 simpleFragment7 = fragmento7.newInstance();
+
+                fragmentTransaction.add(R.id.fragment7,simpleFragment7).addToBackStack(null).commit();
+
+                break;
+            case "act8":
+
+                fragmento8 simpleFragment8 = fragmento8.newInstance();
+
+                fragmentTransaction.add(R.id.fragment8,simpleFragment8).addToBackStack(null).commit();
+
+                break;
+            case "act9":
+
+                fragmento9 simpleFragment9 = fragmento9.newInstance();
+
+                fragmentTransaction.add(R.id.fragment8,simpleFragment9).addToBackStack(null).commit();
+
+                break;
+
+
 
         }
 

@@ -34,14 +34,14 @@ public class fragmento3 extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_fragmento3, container, false);
 
-        ImageView btnplayB = (ImageView) view.findViewById(R.id.btnplayB);
+        ImageView btnplayB = (ImageView) view.findViewById(R.id.btnplay3);
 
         btnplayB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
                 Intent intent = new Intent(getContext(), Main2Activity.class);
-                intent.putExtra("URL", "file:///android_asset/act_2/actividad.html");
+                intent.putExtra("URL", "file:///android_asset/Nivel1/el-desorden-de-las-aulas-mapa-interactivo/actividad.html");
                 startActivity(intent);
                 getActivity().finish();
             }

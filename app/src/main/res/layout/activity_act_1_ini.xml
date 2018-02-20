@@ -49,6 +49,38 @@
 
     </FrameLayout>
 
+    <FrameLayout
+        android:id="@+id/fragment6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="com.te.unan.appestudianteswm.fragmento6">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="com.te.unan.appestudianteswm.fragmento7">
+
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/fragment8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="com.te.unan.appestudianteswm.fragmento8">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="com.te.unan.appestudianteswm.fragmento9"
+        tools:ignore="DuplicateIds">
+
+    </FrameLayout>
+
 
 
 </LinearLayout>

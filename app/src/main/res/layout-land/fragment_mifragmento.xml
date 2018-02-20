@@ -6,14 +6,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="20dp"
-    android:background="@drawable/fondo_act_1"
+    android:background="@drawable/fondo_act1_n1"
     tools:context="com.te.unan.appestudianteswm.Act_1_ini"
     >
 
 
 
     <ImageView
-        android:id="@+id/btnplayA"
+        android:id="@+id/btnplay1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:foregroundGravity="center"

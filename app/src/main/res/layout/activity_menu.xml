@@ -25,7 +25,7 @@
         app:srcCompat="@drawable/nivel1"
         tools:ignore="VectorDrawableCompat"
         android:layout_marginRight="30pt"
-        android:layout_marginLeft="70pt"
+        android:layout_marginLeft="50pt"
         />
 
         <ImageView

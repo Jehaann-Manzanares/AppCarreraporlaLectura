@@ -11,7 +11,7 @@ import android.widget.ListView;
 
 public class MenuNivel1 extends AppCompatActivity {
 
-    ImageView act1,act2 ,act3 ,act4,act5;
+    ImageView act1,act2 ,act3 ,act4,act5,act6,act7,act8,act9;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,7 +23,10 @@ public class MenuNivel1 extends AppCompatActivity {
         act3 = (ImageView) findViewById(R.id.actividad3);
         act4 = (ImageView) findViewById(R.id.actividad4);
         act5 = (ImageView) findViewById(R.id.actividad5);
-
+        act6 = (ImageView) findViewById(R.id.actividad6);
+        act7 = (ImageView) findViewById(R.id.actividad7);
+        act8 = (ImageView) findViewById(R.id.actividad8);
+        act9 = (ImageView) findViewById(R.id.actividad9);
 
         act1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -67,6 +70,42 @@ public class MenuNivel1 extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),Act_1_ini.class);
                 intent.putExtra("id","act5");
+                startActivity(intent);
+            }
+        });
+
+        act6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),Act_1_ini.class);
+                intent.putExtra("id","act6");
+                startActivity(intent);
+            }
+        });
+
+        act7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),Act_1_ini.class);
+                intent.putExtra("id","act7");
+                startActivity(intent);
+            }
+        });
+
+        act8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),Act_1_ini.class);
+                intent.putExtra("id","act8");
+                startActivity(intent);
+            }
+        });
+
+        act9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),Act_1_ini.class);
+                intent.putExtra("id","act9");
                 startActivity(intent);
             }
         });
