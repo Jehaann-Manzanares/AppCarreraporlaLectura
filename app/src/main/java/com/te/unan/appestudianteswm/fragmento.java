@@ -47,7 +47,6 @@ public class fragmento extends Fragment {
                 startActivity(intent);
                 getActivity().finish();
 
-
             }
         });
 
