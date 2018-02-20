@@ -3,40 +3,39 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
-		<title>Actividad Relacionar Columnas</title>
+		<title>Actividad Mapa</title>
 		<link rel="stylesheet" type="text/css" href="styles_com.css">
 		<link rel="stylesheet" type="text/css" href="styles_part.css">
 				<script src="actividad.js"></script>
 		<script src="common.js"></script>
-		<script src="jquery.fittext.js"></script>
 		<script src="particulars.js"></script>
         <script>
 			$(document).data("loadingXmlError","Error en la lectura del fichero XML");
-						$(document).data("PRMO","2");
+            $(document).data("PRMO","2");
 		</script>
 	</head>
-	<body> 
-    
-		    
+	<body ondragstart="return false">
+
+
     <div id="all">
         <!-- cargando -->
- 
+
         <div id="preLoad" class="cargapremium">
         </div>
-        
+
 		<!-- informacion previa a la actividad -->
-    
+
 		<div id="contentPreActividad">
 			<div id="preActividad">
 				<div class="iconActividad">
-					<img id="iconoACT" src="img_html5/iconoRuletaPalabras.png" width="240" height="210">
+					<img id="iconoACT" src="img_html5/iconoMapa.png" width="240" height="210">
 				</div>
 				<div class="colInfoActividad">
 					<h1 id="tituloInicio"></h1>
 					<div class="descripcionActividad" id="desAct">
 						<div class="contentDescripcion">
 							<p id="descripcionInicio"></p>
-						</div>    
+						</div>
 					</div>
 					<div class="toggleMostrar">
 						<div class="expand">
@@ -77,10 +76,7 @@
 									<strong><span id="inicioAutor"></span></strong><span id="autor"></span>
 								</div>
 								<div class="optionsAct ri">
-                                    <a href="" id="enlacePantallaCompletaP" class="full" target="_blank"></a>
-                                    <a href="print.html" id="enlaceImprimirP" class="print" target="_blank"></a>
 									<a href="#" id="btnAyuda" class="ayuda"></a>
-                                    <a href="https://www.educaplay.com" id="btnEducaplayA" class="educaplay" title="Educaplay" target="_blank"></a>
 								</div>
 							</div>
 						</div>
@@ -91,24 +87,27 @@
 			<div id="banner">
 				<div class="blockBanner">
             		<div class="close" id="cerrarPubli"><a href="#">&times;</a></div>
-            		<a id="enlacePubli" href="javascript: return false;" target="_blank" rel="nofollow"><img id ="bannerPubli" src="img_html5/adrBanner.png" alt=""></a>
+            		<a id="enlacePubli" href="javascript: return false;" target="_blank" rel="nofollow"><img id ="bannerPubli" src="/img_html5/adrBanner.png" alt=""></a>
         		</div>
 			</div>
 		</div>
 
 		<!-- comienza la actividad -->
 
-    	<div id="contentAct">	
+    	<div id="contentAct">
            	<div id="headAct">
            		<div class="row">
 					<div class="optionsAct ri">
-						<a href="#" id="enlacePantallaCompleta" class="full" target="_blank"><div id="tooltipPC" class="tooltip abajo izquierda"></div></a>
-						<a href="print.html" id="enlaceImprimir" class="print" target="_blank"><div id="tooltipI" class="tooltip abajo izquierda"></div></a>
-						<a href="#" id="enlaceReiniciar" class="reiniciar"><div id="tooltipR" class="tooltip abajo izquierda"></div></a>
+                        <a href="#" id="enlaceReiniciar" class="reiniciar"><div id="tooltipR" class="tooltip abajo izquierda"></div></a>
 						<a href="#" id="enlaceAyuda" class="ayuda"><div id="tooltipA" class="tooltip abajo izquierda"></div></a>
-						<a href="https://www.educaplay.com" id="enlaceEducaplay" class="educaplay" target="_blank"><div id="tooltipED" class="tooltip abajo izquierda">Educaplay</div></a>
 					</div>
-					<div id="tituloAct" class="titActividad"><div id="enlaceTitAct"></div></div>     
+
+                    <div class="groupTitle">
+					<div id="tituloAct" class="titActividad">
+                    <div id="enlaceTitAct" class="titActividad"></div>
+                    </div>
+
+           			</div>
            		</div>
            	</div>
            	<div class="boxIndicadores">
@@ -136,24 +135,54 @@
 						</div>
 					</li>
 				</ul>
-			</div>           
+			</div>
         	<div id="bodyAct" class="row">
-<div class="mEduca"></div>        
            		<div id="main">
-           			<div id="wrapper">									
+           			<div id="pistaPalabra">
+                		<div id="textoPistaPalabra"></div>
+                		<div id="valorPistaPalabra"></div>
+                		<div id="audioPistaPalabra"></div>
+                	</div>
+           			<div id="wrapper">
                         <div id="scroller">
-                        	<div id="lienzo">
-                			</div>
+                        	<div class="btnComenzar" id="comenzarScreemAprender">
+								<a href="#" class="btn btn-large btn-primary" id="btnComenzarAprender"></a>
+							</div>
+                  			<div id='cuadroEscribir' class="cuadroEscribir">
+								<input type='text' id='campoEscribir'>
+								<input type='button' id='btnComprueba' class="btn btn-mini">
+                            	<div class="clear"></div>
+							</div>
+                			<div id="lienzo"></div>
+                            <div class="shadowMap" id="shadowMap"></div>
                         </div>
                 	</div>
            		</div>
            	</div>
-           	<div id="footAct">
+           	<div id="footAct" class="screemAprender">
+            	<div class="soundPlayer" id="btnAudio">
+                	<div class="errorSound" id="errorAudio"></div>
+            		<a href="#" class="btn" id="audioOK"><span id="iconoAudio" class="iPlayerReducido iPlay"></span></a>
+            	</div>
+           		<div id="infoZoom" class="infoZoom"></div>
+           		<div class="zoomScroller">
+        			<button id="zoomUp" class="btn"></button>
+        			<button id="encajarEnPantalla" class="btn disable"></button>
+        			<button id="zoomDown" class="btn disable"></button>
+    			</div>
+    			<div id="btnsPresentacion">
+    				<button id="btnAtras" class="btn"><span id="txtBtnAtras" class="txtPrimary"></span><span class="txtMobile"><</span></button>
+                    <div class="pagAprende"><span id='numPag'></span><span class="pagTotal" id="numPagT"></span></div>
+        			<button id="btnAdelante" class="btn btn-primary" ><span id="txtBtnAdelante" class="txtPrimary"></span><span class="txtMobile">></span></button>
+    			</div>
+    			<div id="btnsPresentacion2">
+    				<button id="btnSeguir" class="btn btn-large btn-primary"><span id="txtBtnSeguir" class="txtPrimary"></span><span class="txtMobile">></span></button>
+    			</div>
            	</div>
         </div>
-		
+
 		<!-- comienza la pantalla final -->
-		
+
 		<div id="resumen">
 			<div id="headerResumen" class="actSuperada">
 				<div class="estadoActividad" id="textoCorrecto"></div>
@@ -163,13 +192,20 @@
 				<div class="estadoActividad" id="textoMAL"></div>
 				<div class="nombreActividad" id="tituloMAL"></div>
 			</div>
-			<div id="correccion"></div>
+			<div id="actividadMapa"></div>
 			<div class="groupInfoPlayer">
 				<div id="resultados" class="col3">
 					<ul>
 						<li class="rPuntos"><span class="rDatos" id="valorPuntosI"></span><span id="finalTitPuntos3"></span></li>
 						<li class="rTiempo" id='cajaTiempoFinal'><span class="rDatos" id="valorTiempoI"></span><span id="finalTitTiempo3"></span></li>
 						<li class="rIntentos" id='cajaIntentosFinal'><span class="rDatos" id="valorIntentos"></span><span id="finalTitIntentos3"></span></li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+				<div id="resultados" class="col2">
+					<ul>
+						<li class="rPuntos"><span class="rDatos" id="valorPuntos"></span><span id="finalTitPuntos2"></span></li>
+						<li class="rTiempo"><span class="rDatos" id="valorTiempo"></span><span id="finalTitTiempo2"></span></li>
 					</ul>
 					<div class="clear"></div>
 				</div>
@@ -182,24 +218,23 @@
 					<a href="#" class="btn btn-large" id="btnReiniciar"></a>
 				</div>
 			</div>
-            
 			<div class="clear"></div>
 		</div>
 		<div id="help" class="modalWhite oculto">
         	<div class="close">
             	<a href="#">&times;</a>
-          	</div>    	
+          	</div>
           	<div class="contentModal">
             	<div class="titModalWhite" id="textoAyuda"></div>
              	<div class="infoModal" id="pantallaAyuda"></div>
-           	</div>         
-            <div class="btnsPistaExtra"> 
-            	<ul> 
+           	</div>
+            <div class="btnsPistaExtra">
+            	<ul>
                 	<li><a href="javascript: return false;" class="btn" id="btnAceptar"></a></li>
                	</ul>
          	</div>
    		</div>
-     	<div class="shadow oculto" id="shadowHelp"></div>               
+     	<div class="shadow oculto" id="shadowHelp"></div>
 	</div>
 	<div id="sonidos"></div>
 </body>
