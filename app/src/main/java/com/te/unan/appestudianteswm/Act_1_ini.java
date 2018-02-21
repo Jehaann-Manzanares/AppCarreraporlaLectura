@@ -119,7 +119,7 @@ public class Act_1_ini extends AppCompatActivity {
 
                 fragmento12 simpleFragment12 = fragmento12.newInstance();
 
-                fragmentTransaction.add(R.id.fragment11,simpleFragment12).addToBackStack(null).commit();
+                fragmentTransaction.add(R.id.fragment12,simpleFragment12).addToBackStack(null).commit();
 
                 break;
 
@@ -165,6 +165,25 @@ public class Act_1_ini extends AppCompatActivity {
                 fragmentTransaction.add(R.id.fragment18,simpleFragment18).addToBackStack(null).commit();
 
                 break;
+            case "act10_n2":
+
+                fragmento19 simpleFragment19 = fragmento19.newInstance();
+
+                fragmentTransaction.add(R.id.fragment19,simpleFragment19).addToBackStack(null).commit();
+
+                break;
+
+            case "act11_n2":
+
+                fragmento20 simpleFragment20 = fragmento20.newInstance();
+
+                fragmentTransaction.add(R.id.fragment20,simpleFragment20).addToBackStack(null).commit();
+
+                break;
+
+
+
+
 
 
 

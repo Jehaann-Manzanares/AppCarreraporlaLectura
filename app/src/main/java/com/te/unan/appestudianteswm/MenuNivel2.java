@@ -9,7 +9,7 @@ import android.widget.ImageView;
 
 public class MenuNivel2 extends AppCompatActivity {
 
-    ImageView act1,act2,act3,act4,act5,act6,act7,act8,act9;
+    ImageView act1,act2,act3,act4,act5,act6,act7,act8,act9,act10,act11;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,15 +17,18 @@ public class MenuNivel2 extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_menu_nivel2);
 
-        act1 = (ImageView) findViewById(R.id.actividad1);
-        act2 = (ImageView) findViewById(R.id.actividad2);
-        act3 = (ImageView) findViewById(R.id.actividad3);
-        act4 = (ImageView) findViewById(R.id.actividad4);
-        act5 = (ImageView) findViewById(R.id.actividad5);
-        act6 = (ImageView) findViewById(R.id.actividad6);
-        act7 = (ImageView) findViewById(R.id.actividad7);
-        act8 = (ImageView) findViewById(R.id.actividad8);
-        act9 = (ImageView) findViewById(R.id.actividad9);
+
+        act1 = findViewById(R.id.actividad11);
+        act2 = findViewById(R.id.actividad12);
+        act3 = findViewById(R.id.actividad13);
+        act4 = findViewById(R.id.actividad14);
+        act5 = findViewById(R.id.actividad15);
+        act6 = findViewById(R.id.actividad16);
+        act7 = findViewById(R.id.actividad17);
+        act8 = findViewById(R.id.actividad18);
+        act9 = findViewById(R.id.actividad19);
+        act10 = findViewById(R.id.actividad20);
+        act11 = findViewById(R.id.actividad10);
 
         act1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -116,6 +119,29 @@ public class MenuNivel2 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        act10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent= new Intent(getApplicationContext(),Act_1_ini.class);
+                intent.putExtra("id","act10_n2");
+                startActivity(intent);
+            }
+        });
+
+        act11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent= new Intent(getApplicationContext(),Act_1_ini.class);
+                intent.putExtra("id","act11_n2");
+                startActivity(intent);
+            }
+        });
+
+
+
 
 
     }
