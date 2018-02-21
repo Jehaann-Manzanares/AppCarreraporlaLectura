@@ -77,7 +77,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         class="com.te.unan.appestudianteswm.fragmento9"
-        tools:ignore="DuplicateIds">
+        >
 
     </FrameLayout>
 
@@ -86,7 +86,97 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         class="com.te.unan.appestudianteswm.fragmento10"
-        tools:ignore="DuplicateIds">
+        >
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="com.te.unan.appestudianteswm.fragmento11"
+        >
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="com.te.unan.appestudianteswm.fragmento12"
+        >
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="com.te.unan.appestudianteswm.fragmento13"
+        >
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="com.te.unan.appestudianteswm.fragmento14"
+        >
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="com.te.unan.appestudianteswm.fragmento15"
+        >
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="com.te.unan.appestudianteswm.fragmento16"
+       >
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="com.te.unan.appestudianteswm.fragmento17"
+        >
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="com.te.unan.appestudianteswm.fragmento18"
+        >
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="com.te.unan.appestudianteswm.fragmento19"
+        >
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="com.te.unan.appestudianteswm.fragmento20"
+        >
 
     </FrameLayout>
 

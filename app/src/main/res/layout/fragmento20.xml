@@ -1,15 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@+id/fragment15"
+<FrameLayout android:id="@+id/fragment20"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.te.unan.appestudianteswm.Act_1_ini"
-    android:background="@drawable/fondo_act6_n2"
+    android:background="@drawable/fondo_act8_n2"
     >
 
     <ImageView
-    android:id="@+id/btnplay15"
+    android:id="@+id/btnplay20"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:background="@drawable/btnplay"
