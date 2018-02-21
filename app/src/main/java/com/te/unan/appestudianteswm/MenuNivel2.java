@@ -18,17 +18,17 @@ public class MenuNivel2 extends AppCompatActivity {
         setContentView(R.layout.activity_menu_nivel2);
 
 
-        act1 = findViewById(R.id.actividad11);
-        act2 = findViewById(R.id.actividad12);
-        act3 = findViewById(R.id.actividad13);
-        act4 = findViewById(R.id.actividad14);
-        act5 = findViewById(R.id.actividad15);
-        act6 = findViewById(R.id.actividad16);
-        act7 = findViewById(R.id.actividad17);
-        act8 = findViewById(R.id.actividad18);
-        act9 = findViewById(R.id.actividad19);
-        act10 = findViewById(R.id.actividad20);
-        act11 = findViewById(R.id.actividad10);
+        act1 = findViewById(R.id.actividad10);
+        act2 = findViewById(R.id.actividad11);
+        act3 = findViewById(R.id.actividad12);
+        act4 = findViewById(R.id.actividad13);
+        act5 = findViewById(R.id.actividad14);
+        act6 = findViewById(R.id.actividad15);
+        act7 = findViewById(R.id.actividad16);
+        act8 = findViewById(R.id.actividad17);
+        act9 = findViewById(R.id.actividad18);
+        act10 = findViewById(R.id.actividad19);
+        act11 = findViewById(R.id.actividad20);
 
         act1.setOnClickListener(new View.OnClickListener() {
             @Override

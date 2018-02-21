@@ -41,7 +41,7 @@ public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle sa
         public void onClick(View view) {
 
             Intent intent = new Intent(getContext(), Main2Activity.class);
-            intent.putExtra("URL", "file:///android_asset/Nivel1/caperucita-roja-completar/actividad10.html");
+            intent.putExtra("URL", "file:///android_asset/Nivel2/Relacionar-columnas/actividad.html");
             startActivity(intent);
             getActivity().finish();
         }

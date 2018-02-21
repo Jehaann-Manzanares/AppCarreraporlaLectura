@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.te.unan.appestudianteswm.Act_1_ini"
-    android:background="@drawable/fondo_act3_n2"
+    android:background="@drawable/sopa_de_letras_n2"
     >
 
     <ImageView
@@ -14,7 +14,7 @@
     android:layout_height="wrap_content"
     android:background="@drawable/btnplay"
     android:layout_gravity="center"
-    android:layout_marginTop="150dp"
+    android:layout_marginTop="160dp"
     android:layout_marginLeft="330dp"/>
 
 </FrameLayout>

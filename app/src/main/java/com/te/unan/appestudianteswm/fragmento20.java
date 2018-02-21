@@ -33,16 +33,16 @@ public class fragmento20 extends Fragment{
 @Override
 public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-    View view = inflater.inflate(R.layout.fragmento18, container, false);
+    View view = inflater.inflate(R.layout.fragmento20, container, false);
 
-    ImageView btnplayB = (ImageView) view.findViewById(R.id.btnplay18);
+    ImageView btnplayB = (ImageView) view.findViewById(R.id.btnplay20);
 
     btnplayB.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View view) {
 
             Intent intent = new Intent(getContext(), Main2Activity.class);
-            intent.putExtra("URL", "file:///android_asset/Nivel1/caperucita-roja-completar/actividad10.html");
+            intent.putExtra("URL", "file:///android_asset/Nivel2/Completar-2/actividad.html");
             startActivity(intent);
             getActivity().finish();
         }
