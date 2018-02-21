@@ -81,6 +81,15 @@
 
     </FrameLayout>
 
+    <FrameLayout
+        android:id="@+id/fragment10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="com.te.unan.appestudianteswm.fragmento10"
+        tools:ignore="DuplicateIds">
+
+    </FrameLayout>
+
 
 
 </LinearLayout>

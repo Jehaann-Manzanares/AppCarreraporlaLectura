@@ -97,7 +97,72 @@ public class Act_1_ini extends AppCompatActivity {
 
                 fragmento9 simpleFragment9 = fragmento9.newInstance();
 
-                fragmentTransaction.add(R.id.fragment8,simpleFragment9).addToBackStack(null).commit();
+                fragmentTransaction.add(R.id.fragment9,simpleFragment9).addToBackStack(null).commit();
+
+                break;
+            case "act1_n2":
+
+                fragmento10 simpleFragment10 = fragmento10.newInstance();
+
+                fragmentTransaction.add(R.id.fragment10,simpleFragment10).addToBackStack(null).commit();
+
+                break;
+            case "act2_n2":
+
+                fragmento11 simpleFragment11 = fragmento11.newInstance();
+
+                fragmentTransaction.add(R.id.fragment11,simpleFragment11).addToBackStack(null).commit();
+
+                break;
+
+            case "act3_n2":
+
+                fragmento12 simpleFragment12 = fragmento12.newInstance();
+
+                fragmentTransaction.add(R.id.fragment11,simpleFragment12).addToBackStack(null).commit();
+
+                break;
+
+            case "act4_n2":
+
+                fragmento13 simpleFragment13 = fragmento13.newInstance();
+
+                fragmentTransaction.add(R.id.fragment13,simpleFragment13).addToBackStack(null).commit();
+
+                break;
+            case "act5_n2":
+
+                fragmento14 simpleFragment14 = fragmento14.newInstance();
+
+                fragmentTransaction.add(R.id.fragment14,simpleFragment14).addToBackStack(null).commit();
+
+                break;
+            case "act6_n2":
+
+                fragmento15 simpleFragment15 = fragmento15.newInstance();
+
+                fragmentTransaction.add(R.id.fragment15,simpleFragment15).addToBackStack(null).commit();
+
+                break;
+            case "act7_n2":
+
+                fragmento16 simpleFragment16 = fragmento16.newInstance();
+
+                fragmentTransaction.add(R.id.fragment16,simpleFragment16).addToBackStack(null).commit();
+
+                break;
+            case "act8_n2":
+
+                fragmento17 simpleFragment17 = fragmento17.newInstance();
+
+                fragmentTransaction.add(R.id.fragment17,simpleFragment17).addToBackStack(null).commit();
+
+                break;
+            case "act9_n2":
+
+                fragmento18 simpleFragment18 = fragmento18.newInstance();
+
+                fragmentTransaction.add(R.id.fragment18,simpleFragment18).addToBackStack(null).commit();
 
                 break;
 
