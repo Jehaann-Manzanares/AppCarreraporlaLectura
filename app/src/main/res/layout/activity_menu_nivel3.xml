@@ -38,19 +38,19 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/actividad1"
+                            android:id="@+id/actividad21"
                             android:layout_width="360dp"
                             android:layout_height="155dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/btn_adivinanza3"
+                            android:background="@drawable/btn_dialogo_n3"
                             />
 
                         <ImageView
-                            android:id="@+id/actividad2"
+                            android:id="@+id/actividad22"
                             android:layout_width="360dp"
                             android:layout_height="155dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/btn_completar3" />
+                            android:background="@drawable/btn_completar" />
 
 
 
@@ -63,7 +63,7 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/actividad3"
+                            android:id="@+id/actividad23"
                             android:layout_width="360dp"
                             android:layout_height="155dp"
                             android:layout_marginRight="50dp"
@@ -71,7 +71,7 @@
                             />
 
                         <ImageView
-                            android:id="@+id/actividad4"
+                            android:id="@+id/actividad24"
                             android:layout_width="360dp"
                             android:layout_height="155dp"
                             android:layout_marginRight="50dp"
@@ -86,7 +86,7 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/actividad5"
+                            android:id="@+id/actividad25"
                             android:layout_width="360dp"
                             android:layout_height="155dp"
                             android:layout_marginRight="50dp"
@@ -94,7 +94,7 @@
 
                             />
                         <ImageView
-                            android:id="@+id/actividad6"
+                            android:id="@+id/actividad26"
                             android:layout_width="360dp"
                             android:layout_height="155dp"
                             android:layout_marginRight="50dp"
@@ -112,7 +112,7 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/actividad7"
+                            android:id="@+id/actividad27"
                             android:layout_width="360dp"
                             android:layout_height="155dp"
                             android:layout_marginRight="50dp"
@@ -120,7 +120,7 @@
 
                             />
                         <ImageView
-                            android:id="@+id/actividad8"
+                            android:id="@+id/actividad28"
                             android:layout_width="360dp"
                             android:layout_height="155dp"
                             android:layout_marginRight="50dp"
@@ -138,7 +138,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/actividad9"
+                        android:id="@+id/actividad29"
                         android:layout_width="360dp"
                         android:layout_height="155dp"
                         android:layout_marginRight="50dp"
@@ -146,7 +146,7 @@
 
                         />
                     <ImageView
-                        android:id="@+id/actividad10"
+                        android:id="@+id/actividad30"
                         android:layout_width="360dp"
                         android:layout_height="155dp"
                         android:layout_marginRight="50dp"
@@ -164,7 +164,16 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/actividad11"
+                            android:id="@+id/actividad31"
+                            android:layout_width="360dp"
+                            android:layout_height="155dp"
+                            android:layout_marginRight="50dp"
+                            android:background="@drawable/btn_ruletadepalabras3"
+
+                            />
+
+                        <ImageView
+                            android:id="@+id/actividad32"
                             android:layout_width="360dp"
                             android:layout_height="155dp"
                             android:layout_marginRight="50dp"
