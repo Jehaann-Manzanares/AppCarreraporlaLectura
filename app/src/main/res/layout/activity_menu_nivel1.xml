@@ -129,7 +129,7 @@
                             android:layout_width="360dp"
                             android:layout_height="155dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/btn_presentacion3"
+                            android:background="@drawable/btn_presentacion3_n3"
 
                             />
 
@@ -148,7 +148,7 @@
                             android:layout_width="360dp"
                             android:layout_height="155dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/btn_completar3"
+                            android:background="@drawable/btn_completar3_n3"
 
                             />
 

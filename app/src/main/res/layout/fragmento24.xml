@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.te.unan.appestudianteswm.Act_1_ini"
-    android:background="@drawable/fondo_act7_n2"
+    android:background="@drawable/fondo_act4_n3"
     >
 
     <ImageView
