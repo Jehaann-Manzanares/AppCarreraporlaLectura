@@ -1,6 +1,7 @@
 package com.te.unan.appestudianteswm;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -12,6 +13,8 @@ import android.widget.ListView;
 public class MenuNivel1 extends AppCompatActivity {
 
     ImageView act1,act2 ,act3 ,act4,act5,act6,act7,act8,act9;
+    MediaPlayer mp;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -104,9 +107,11 @@ public class MenuNivel1 extends AppCompatActivity {
         act9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //audio();
                 Intent intent = new Intent(getApplicationContext(),Act_1_ini.class);
                 intent.putExtra("id","act9");
                 startActivity(intent);
+
             }
         });
 
@@ -122,4 +127,18 @@ public class MenuNivel1 extends AppCompatActivity {
         // Añade más funciones si fuese necesario
         super.onBackPressed();  // Invoca al método
     }
+
+   /* public void  audio() {
+
+        mp = new MediaPlayer();
+
+        mp = MediaPlayer.create(this ,R.raw.mario_brosvida);
+        mp.start();
+
+    }*/
+
+
+
+
+
 }

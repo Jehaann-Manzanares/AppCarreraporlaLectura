@@ -9,7 +9,7 @@ import android.webkit.WebView;
 import android.widget.ImageView;
 
 public class Act_2_ini extends AppCompatActivity {
-    ImageView btnPlay;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,16 +17,19 @@ public class Act_2_ini extends AppCompatActivity {
         setContentView(R.layout.activity_act_2_ini);
 
 
-        btnPlay = (ImageView) findViewById(R.id.btnplay);
-        btnPlay.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Intent intent = new Intent(getApplicationContext(),Main2Activity.class);
-                startActivity(intent);
-
+        Thread timerThread = new Thread(){
+            public void run(){
+                try{
+                    sleep(6000);
+                }catch(InterruptedException e){
+                    e.printStackTrace();
+                }finally{
+                    Intent intent = new Intent(getApplicationContext(),MenuActivity.class);
+                    startActivity(intent);
+                }
             }
-        });
+        };
+        timerThread.start();
 
     }
 }

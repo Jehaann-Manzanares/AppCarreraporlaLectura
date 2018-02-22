@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 }catch(InterruptedException e){
                     e.printStackTrace();
                 }finally{
-                    Intent intent = new Intent(getApplicationContext(),MenuActivity.class);
+                    Intent intent = new Intent(getApplicationContext(),Act_2_ini.class);
                     startActivity(intent);
                 }
             }
