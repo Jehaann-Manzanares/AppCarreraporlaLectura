@@ -10,10 +10,12 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 
-public class MenuNivel1 extends AppCompatActivity {
+public class MenuNivel1 extends  AppCompatActivity {
 
     ImageView act1,act2 ,act3 ,act4,act5,act6,act7,act8,act9;
     MediaPlayer mp;
+
+    metodos m = new metodos();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +47,7 @@ public class MenuNivel1 extends AppCompatActivity {
         act2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                audio();
                 Intent intent = new Intent(getApplicationContext(),Act_1_ini.class);
                 intent.putExtra("id","act2");
                 startActivity(intent);
@@ -54,6 +57,7 @@ public class MenuNivel1 extends AppCompatActivity {
         act3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                audio();
                 Intent intent = new Intent(getApplicationContext(),Act_1_ini.class);
                 intent.putExtra("id","act3");
                 startActivity(intent);
@@ -63,6 +67,7 @@ public class MenuNivel1 extends AppCompatActivity {
         act4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                m.audio();
                 Intent intent = new Intent(getApplicationContext(),Act_1_ini.class);
                 intent.putExtra("id","act4");
                 startActivity(intent);
@@ -71,6 +76,7 @@ public class MenuNivel1 extends AppCompatActivity {
         act5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                audio();
                 Intent intent = new Intent(getApplicationContext(),Act_1_ini.class);
                 intent.putExtra("id","act5");
                 startActivity(intent);
@@ -80,6 +86,7 @@ public class MenuNivel1 extends AppCompatActivity {
         act6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                audio();
                 Intent intent = new Intent(getApplicationContext(),Act_1_ini.class);
                 intent.putExtra("id","act6");
                 startActivity(intent);
@@ -89,6 +96,7 @@ public class MenuNivel1 extends AppCompatActivity {
         act7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                audio();
                 Intent intent = new Intent(getApplicationContext(),Act_1_ini.class);
                 intent.putExtra("id","act7");
                 startActivity(intent);
@@ -98,6 +106,7 @@ public class MenuNivel1 extends AppCompatActivity {
         act8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                audio();
                 Intent intent = new Intent(getApplicationContext(),Act_1_ini.class);
                 intent.putExtra("id","act8");
                 startActivity(intent);
@@ -107,7 +116,7 @@ public class MenuNivel1 extends AppCompatActivity {
         act9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //audio();
+                audio();
                 Intent intent = new Intent(getApplicationContext(),Act_1_ini.class);
                 intent.putExtra("id","act9");
                 startActivity(intent);
@@ -128,14 +137,16 @@ public class MenuNivel1 extends AppCompatActivity {
         super.onBackPressed();  // Invoca al método
     }
 
-   /* public void  audio() {
+   public void  audio() {
 
         mp = new MediaPlayer();
 
-        mp = MediaPlayer.create(this ,R.raw.mario_brosvida);
+        mp = MediaPlayer.create(this ,R.raw.mariobrosjump);
         mp.start();
 
-    }*/
+    }
+
+
 
 
 
