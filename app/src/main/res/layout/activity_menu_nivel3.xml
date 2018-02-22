@@ -50,7 +50,7 @@
                             android:layout_width="360dp"
                             android:layout_height="155dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/btn_completar" />
+                            android:background="@drawable/btm_completar_n3" />
 
 
 
@@ -67,7 +67,7 @@
                             android:layout_width="360dp"
                             android:layout_height="155dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/btn_crusigrama3"
+                            android:background="@drawable/btn_presentacion_n3"
                             />
 
                         <ImageView
@@ -75,7 +75,7 @@
                             android:layout_width="360dp"
                             android:layout_height="155dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/btn_dictadon3" />
+                            android:background="@drawable/btn_test_n3" />
 
                     </LinearLayout>
 
@@ -90,7 +90,7 @@
                             android:layout_width="360dp"
                             android:layout_height="155dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/btn_ordenar_n3"
+                            android:background="@drawable/btn_dictado_n3"
 
                             />
                         <ImageView
@@ -98,7 +98,7 @@
                             android:layout_width="360dp"
                             android:layout_height="155dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/btn_ordenarletras3"
+                            android:background="@drawable/btn_presentacion_n3"
 
                             />
 
@@ -116,7 +116,7 @@
                             android:layout_width="360dp"
                             android:layout_height="155dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/btn_presentacion3"
+                            android:background="@drawable/btn_sopadeletras_n3"
 
                             />
                         <ImageView
@@ -124,7 +124,7 @@
                             android:layout_width="360dp"
                             android:layout_height="155dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/btn_relacionarcolumnas3"
+                            android:background="@drawable/btn_relacionarcolumnas_n3"
 
                             />
 
@@ -142,7 +142,7 @@
                         android:layout_width="360dp"
                         android:layout_height="155dp"
                         android:layout_marginRight="50dp"
-                        android:background="@drawable/btn_relacionar3"
+                        android:background="@drawable/btn_crucigrama_n3"
 
                         />
                     <ImageView
@@ -150,7 +150,7 @@
                         android:layout_width="360dp"
                         android:layout_height="155dp"
                         android:layout_marginRight="50dp"
-                        android:background="@drawable/btn_ruletadepalabras3"
+                        android:background="@drawable/btn_relacionar_n3"
 
                         />
 
@@ -168,7 +168,7 @@
                             android:layout_width="360dp"
                             android:layout_height="155dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/btn_ruletadepalabras3"
+                            android:background="@drawable/btn_presentacion_n3"
 
                             />
 
@@ -177,7 +177,35 @@
                             android:layout_width="360dp"
                             android:layout_height="155dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/btn_ruletadepalabras3"
+                            android:background="@drawable/btn_dictado_n3"
+
+                            />
+
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/actividad33"
+                            android:layout_width="360dp"
+                            android:layout_height="155dp"
+                            android:layout_marginRight="50dp"
+                            android:background="@drawable/btn_ruletadepalabras_n3"
+
+                            />
+
+                        <ImageView
+                            android:id="@+id/actividad34"
+                            android:layout_width="360dp"
+                            android:layout_height="155dp"
+                            android:layout_marginRight="50dp"
+                            android:background="@drawable/btm_completar_n3"
 
                             />
 

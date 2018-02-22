@@ -1,0 +1,45 @@
+#lienzo{position:relative;width:100%;overflow-x:hidden}#wrapper{width:100%;bottom:0}.soundPlayer{z-index:999}.iPlayerReducido{display:block;width:15px;height:18px;background-image:url(img_html5/iPlayerReducido.png);background-repeat:no-repeat}.iPlay{background-position:center -34px}.iPause{background-position:center -7px}.errorSound{width:45px;height:28px;background:url(img_html5/errorSoundBlack.png) no-repeat center center;cursor:help}.errorSound{background:url(img_html5/errorSoundWhite.png) no-repeat center center}.errorSound{display:none}#scroller{background:none}#wrapper{overflow:auto}#footAct{display:none}#wrapper{background-color:#404449;color:#fff;overflow:auto}#scroller{background-color:#404449}#scroller,#lienzo{height:100%;overflow:hidden}label,input,button,select,textarea,body{font:14px/19px "Segoe UI", Segoe, Optima, Candara, "DejaVu Sans", Calibri, Arial, sans-serif}#contentSecuencias li:before,
+#contentSecuencias li:after{display:table;line-height:0;content:""}#contentSecuencias li:after{clear:both}#contentSecuencias ol, #contentSecuencias
+li{margin:0;padding:0;list-style-type:none}#contentSecuencias
+ol{padding:15px
+35px 45px}#contentSecuencias{position:absolute;overflow:auto;width:94%;top:68px;margin-left:3%;bottom:8px}.imgPersonaje{width:80px;height:80px;overflow:hidden;background-color:#404449;border-radius:55px;transition:all 1s;position:relative;z-index:9;box-shadow:rgba(0,0,0,.3) 0 2px 6px}.personaje
+img{height:auto;width:100%}.personaje:hover
+.imgPersonaje{border-radius:6px}.personaje{position:relative;padding:5px
+0 5px 35px;float:left}.personaje:hover
+.silenciaParticipa{left:0;top:0}.secuenciaTexto{margin-left:135px;padding-top:12px}.txtSecuencia{max-height:200px;overflow:auto;word-wrap:break-word}.silenciaParticipa{width:29px;height:29px;overflow:hidden;background-color:rgba(0,0,0,.4);border-radius:34px;position:absolute;left:50px;top:50px;transition:all .5s;text-indent:-999em;cursor:pointer;background-image:url(img_html5/iconSound.png);background-repeat:no-repeat;background-position:center center}.contentSecuencia{background-color:rgba(0,0,0,.3);padding:12px
+20px;border-radius:6px;color:rgba(255,255,255,.6);position:relative}.nombrePersonaje{font-size:12px;opacity:.7}.contentSecuencia:before{border-right:solid rgba(0,0,0,.3) 6px;top:26px;right:100%;border-top:solid transparent 8px;border-bottom:solid transparent 8px;display:block;content:" ";position:absolute}#contentSecuencias
+li{margin-bottom:4px;opacity:.7;transition:all .5s}#contentSecuencias li:hover{opacity:1}#contentSecuencias li:hover .personaje
+.imgPersonaje{box-shadow:rgba(0,0,0,.7) 0 6px 14px}#contentSecuencias li:nth-child(odd) .personaje{float:right;padding:5px
+35px 5px 0}#contentSecuencias li:nth-child(odd) .personaje
+.silenciaParticipa{left:inherit;right:50px;top:50px}#contentSecuencias li:nth-child(odd) .personaje:hover
+.silenciaParticipa{right:0;top:0}#contentSecuencias li:nth-child(odd) .secuenciaTexto{margin:0
+135px 0 0}#contentSecuencias li:nth-child(odd) .contentSecuencia:before{border-left:solid rgba(0,0,0,.3) 6px;border-right:none;right:-6px}#contentSecuencias
+.textoActivo{opacity:1}#contentSecuencias .textoActivo .contentSecuencia:before{border-right-color:#fff}#contentSecuencias li.textoActivo:nth-child(odd) .contentSecuencia:before{border-left-color:#fff}#contentSecuencias .textoActivo
+.contentSecuencia{background:#fff;background:-moz-linear-gradient(top,  #fff 51%, #f7f7f7 99%);background:-webkit-gradient(linear, left top, left bottom, color-stop(51%,#ffffff), color-stop(99%,#f7f7f7));background:-webkit-linear-gradient(top,  #fff 51%,#f7f7f7 99%);background:-o-linear-gradient(top,  #fff 51%,#f7f7f7 99%);background:-ms-linear-gradient(top,  #fff 51%,#f7f7f7 99%);background:linear-gradient(to bottom,  #fff 51%,#f7f7f7 99%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f7f7f7',GradientType=0 );border:2px
+solid #fff;color:#111;box-shadow:rgba(0,0,0,.46) 0 2px 6px}#contentSecuencias .textoActivo
+.silenciaParticipa{left:0;top:0}#contentSecuencias li.textoActivo:nth-child(odd) .silenciaParticipa{right:0;top:0}.soundOffImagen{opacity:0;top:0;position:absolute;left:-100%;background-color:rgba(0,0,0,.82);height:100%;width:100%;z-index:99;transition:all .5s;background-image:url(img_html5/iconSilence.png);background-repeat:no-repeat;background-position:center center}.silenciado
+.soundOffImagen{opacity:1;left:0}.silenciado
+.silenciaParticipa{background-image:url(img_html5/iconSilenceRe.png)}.silenciado .imgPersonaje, li:hover .silenciado
+.imgPersonaje{box-shadow:none}.interpretado
+.soundOffImagen{opacity:1;left:0;background-image:url(img_html5/iconSilence.png)}.interpretado
+.silenciaParticipa{display:none}.interpretado .imgPersonaje, li:hover .interpretado
+.imgPersonaje{box-shadow:none}#divBotones{background-color:#292d33;color:#fff;text-align:center}#conmutador{font-size:0;padding:6px
+0}#conmutador
+.btn{width:150px;font-size:12px;line-height:15px;padding-top:5px;padding-bottom:6px;text-align:left}#unoauno{border-radius:8px 0 0 8px;border-right:0;margin-right:1px}#secuencial{border-radius:0 8px 8px 0;border-left:0}.titBtn{display:block;font-weight:bold}.estadoPausar,.estadoReanudar,.estadoSiguiente,.estadoError{display:none}.estadoPausar .iconEstadoPlayer, .estadoReanudar .iconEstadoPlayer, .estadoSiguiente
+.iconEstadoPlayer{background-image:url(img_html5/iPlayer.png);background-repeat:no-repeat;height:30px;text-indent:-9999em}.estadoError{background-image:url(img_html5/errorSoundBlack.png);background-repeat:no-repeat;height:30px;background-position:center center}.estadoPausar
+.iconEstadoPlayer{background-position:center -3px}.estadoReanudar
+.iconEstadoPlayer{background-position:center -41px}.estadoSiguiente
+.iconEstadoPlayer{width:26px;height:30px;float:right;background-position:center -79px}.estadoSiguiente
+.titBtn{line-height:30px;margin-right:38px}@media all and (max-width:600px){#contentSecuencias{margin:0;width:100%;bottom:0;top:55px}#contentSecuencias
+ol{padding:15px
+18px 45px}}@media all and (max-width:460px){#contentSecuencias
+ol{padding:10px
+4px 20px}}@media all and (max-width:380px){#conmutador
+.btn{padding-left:6px;padding-right:6px;width:142px}}#main ::-webkit-scrollbar{height:20px;overflow:visible;width:8px}#main ::-webkit-scrollbar-thumb:vertical,
+#main ::-webkit-scrollbar-thumb:horizontal{background-color:rgba(255, 255, 255, .36);background-clip:padding-box;border-radius:5px;cursor:pointer;display:block;min-height:30px}#main ::-webkit-scrollbar-thumb:vertical:hover,
+#main ::-webkit-scrollbar-thumb:horizontal:hover{background-color:rgba(255, 255, 255, .6)}#main ::-webkit-scrollbar-thumb:vertical:active,
+#main ::-webkit-scrollbar-thumb:horizontal:active{background-color:#7cb139}#main ::-webkit-scrollbar-button{height:0;width:0}#main ::-webkit-scrollbar-track{background-clip:padding-box;border-width:0 0 0 4px;border:solid transparent}#main ::-webkit-scrollbar-track-piece{background-clip:padding-box;background-color:transparent;border-radius:1px}#main ::scrollbar{height:20px;overflow:visible;width:8px}#main ::scrollbar-thumb:vertical,
+#main ::scrollbar-thumb:horizontal{background-color:rgba(255, 255, 255, .36);background-clip:padding-box;border-radius:5px;cursor:pointer;display:block;min-height:30px}#main ::scrollbar-thumb:vertical:hover,
+#main ::scrollbar-thumb:horizontal:hover{background-color:rgba(255, 255, 255, .6)}#main ::scrollbar-thumb:vertical:active,
+#main ::scrollbar-thumb:horizontal:active{background-color:#7cb139}#main ::scrollbar-button{height:0;width:0}#main ::scrollbar-track{background-clip:padding-box;border-width:0 0 0 4px;border:solid transparent}#main ::scrollbar-track-piece{background-clip:padding-box;background-color:transparent;border-radius:1px}.mEduca{height:30px;width:113px;bottom:8px;right:0px;z-index:9999;opacity:0;transition:all .6s;pointer-events:none;background-image:url(img_html5/mEducaWhite.png);background-repeat:no-repeat;position:absolute}#bodyAct:hover
+.mEduca{opacity:1}

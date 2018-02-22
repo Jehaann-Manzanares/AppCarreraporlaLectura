@@ -42,7 +42,7 @@ public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle sa
         public void onClick(View view) {
 
             Intent intent = new Intent(getContext(), Main2Activity.class);
-            intent.putExtra("URL", "file:///android_asset/Nivel2/Completar-2/actividad.html");
+            intent.putExtra("URL", "file:///android_asset/Nivel3/cuentos/actividad.html");
             startActivity(intent);
             getActivity().finish();
         }

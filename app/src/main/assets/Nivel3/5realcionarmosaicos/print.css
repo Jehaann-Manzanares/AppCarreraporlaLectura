@@ -1,0 +1,16 @@
+*{margin:0;padding:0}a
+img{border:none}body{background-color:#FFF;color:#111;font-family:"Segoe UI",Segoe,Optima,Candara,"DejaVu Sans",Calibri,Arial,sans-serif;font-size:12pt}#all{padding:12pt 3%}.clear{clear:both}#actividad{position:relative;text-align:center}.datosActividad{font-size:11px;padding:4pt 1.5% 0 0;text-align:right}.logo{float:left;padding:3pt 0 0 1.5%}#header{padding:1pt 0 20pt}h1{font:bold 18px/20px "Segoe UI", Segoe, Optima, Candara, "DejaVu Sans",Calibri,Arial,sans-serif;padding-bottom:2px}a{text-decoration:none;color:#618a2c}#textoAutor{margin-right:4px}*{box-sizing:border-box}.cardContainer{margin:0
+2pt 12pt}.cardContent,.block-card{width:132px;height:132px}.scrollbox{width:132px}.cardTxt{font-size:14px;font-weight:500;line-height:19px}.size-s .cardContent, .size-s .block-card{width:81px;height:81px}.size-s
+.scrollbox{width:81px}.size-s
+.cardTxt{font-size:11px;font-weight:400;line-height:14px}.size-m .cardContent, .size-m .block-card{width:118px;height:118px}.size-m
+.scrollbox{width:118px}.size-m
+.cardTxt{font-size:13px;font-weight:400;line-height:16px}.size-l .cardContent, .size-l .block-card{width:142px;height:142px}.size-l
+.scrollbox{width:142px}.size-l
+.cardTxt{font-size:14px;font-weight:500;line-height:19px}.block-card{display:inline-block;font-family:Segoe,"Segoe UI","DejaVu Sans","Trebuchet MS",Verdana,sans-serif;font-weight:400;font-size:14px;line-height:20px}.cardContent{display:table-cell;vertical-align:middle;box-sizing:border-box;text-align:center}.cardWrapper{text-align:center;font-size:0;line-height:0;overflow:hidden;padding:10px
+0 5px}.cardImage
+img{vertical-align:middle;width:100%;height:auto}.cardImage{overflow:hidden}.scrollbox{padding:4px
+6px;max-height:100%;box-sizing:border-box;overflow:hidden}.cardPrint{border:2px
+solid #ccc;border-radius:2px}.num-card{position:absolute;top:0;left:0;background-color:rgba(0,0,0,0.82);color:#fff;font-size:11px}.cardContainer{position:relative;box-sizing:content-box;padding:20px
+0 30px}.numero{font-size:8.5pt;font-weight:500;position:absolute;top:0;width:100%;left:0}.numeroBox{position:absolute;bottom:0;height:30px;left:0;width:100%;background-color:#fff;border:2px
+solid #ccc;border-top:1px dotted #ccc}#contentElementos{max-width:850px;margin:0
+auto}.soundCard{display:block;width:100%;height:100%;border:none;box-sizing:border-box;background-color:#ccc;background-image:url(img/iSoundCard.png);background-repeat:no-repeat;background-position:center center;outline:none}#publiActividad{width:100%;text-align:center;float:left;margin-top:20px;margin-bottom:30px}
