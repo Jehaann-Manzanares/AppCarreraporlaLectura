@@ -26,6 +26,7 @@ public class Act_2_ini extends AppCompatActivity {
                 }finally{
                     Intent intent = new Intent(getApplicationContext(),MenuActivity.class);
                     startActivity(intent);
+                    finish();
                 }
             }
         };
