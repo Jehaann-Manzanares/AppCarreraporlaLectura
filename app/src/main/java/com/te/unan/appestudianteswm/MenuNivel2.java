@@ -7,9 +7,10 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
 
-public class MenuNivel2 extends AppCompatActivity {
+public class MenuNivel2 extends metodos {
 
     ImageView act1,act2,act3,act4,act5,act6,act7,act8,act9,act10,act11;
+    Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,8 +34,8 @@ public class MenuNivel2 extends AppCompatActivity {
         act1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                Intent intent= new Intent(getApplicationContext(),Act_1_ini.class);
+                audio();
+                intent= new Intent(getApplicationContext(),Act_1_ini.class);
                 intent.putExtra("id","act1_n2");
                 startActivity(intent);
             }
@@ -43,8 +44,8 @@ public class MenuNivel2 extends AppCompatActivity {
         act2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                Intent intent= new Intent(getApplicationContext(),Act_1_ini.class);
+                audio();
+                intent= new Intent(getApplicationContext(),Act_1_ini.class);
                 intent.putExtra("id","act2_n2");
                 startActivity(intent);
             }
@@ -53,8 +54,8 @@ public class MenuNivel2 extends AppCompatActivity {
         act3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                Intent intent= new Intent(getApplicationContext(),Act_1_ini.class);
+                audio();
+                intent= new Intent(getApplicationContext(),Act_1_ini.class);
                 intent.putExtra("id","act3_n2");
                 startActivity(intent);
             }
@@ -63,8 +64,8 @@ public class MenuNivel2 extends AppCompatActivity {
         act4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                Intent intent= new Intent(getApplicationContext(),Act_1_ini.class);
+                audio();
+                intent= new Intent(getApplicationContext(),Act_1_ini.class);
                 intent.putExtra("id","act4_n2");
                 startActivity(intent);
             }
@@ -73,8 +74,8 @@ public class MenuNivel2 extends AppCompatActivity {
         act5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                Intent intent= new Intent(getApplicationContext(),Act_1_ini.class);
+                audio();
+                intent= new Intent(getApplicationContext(),Act_1_ini.class);
                 intent.putExtra("id","act5_n2");
                 startActivity(intent);
             }
@@ -83,8 +84,8 @@ public class MenuNivel2 extends AppCompatActivity {
         act6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                Intent intent= new Intent(getApplicationContext(),Act_1_ini.class);
+                audio();
+                intent= new Intent(getApplicationContext(),Act_1_ini.class);
                 intent.putExtra("id","act6_n2");
                 startActivity(intent);
             }
@@ -93,8 +94,8 @@ public class MenuNivel2 extends AppCompatActivity {
         act7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                Intent intent= new Intent(getApplicationContext(),Act_1_ini.class);
+                audio();
+                intent= new Intent(getApplicationContext(),Act_1_ini.class);
                 intent.putExtra("id","act7_n2");
                 startActivity(intent);
             }
@@ -103,8 +104,8 @@ public class MenuNivel2 extends AppCompatActivity {
         act8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                Intent intent= new Intent(getApplicationContext(),Act_1_ini.class);
+                audio();
+                intent= new Intent(getApplicationContext(),Act_1_ini.class);
                 intent.putExtra("id","act8_n2");
                 startActivity(intent);
             }
@@ -113,8 +114,8 @@ public class MenuNivel2 extends AppCompatActivity {
         act9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                Intent intent= new Intent(getApplicationContext(),Act_1_ini.class);
+                audio();
+                intent= new Intent(getApplicationContext(),Act_1_ini.class);
                 intent.putExtra("id","act9_n2");
                 startActivity(intent);
             }
@@ -123,8 +124,8 @@ public class MenuNivel2 extends AppCompatActivity {
         act10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                Intent intent= new Intent(getApplicationContext(),Act_1_ini.class);
+                audio();
+                intent= new Intent(getApplicationContext(),Act_1_ini.class);
                 intent.putExtra("id","act10_n2");
                 startActivity(intent);
             }
@@ -133,7 +134,7 @@ public class MenuNivel2 extends AppCompatActivity {
         act11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                audio();
                 Intent intent= new Intent(getApplicationContext(),Act_1_ini.class);
                 intent.putExtra("id","act11_n2");
                 startActivity(intent);
