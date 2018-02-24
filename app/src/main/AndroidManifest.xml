@@ -37,9 +37,14 @@
             android:screenOrientation="sensorLandscape" />
         <activity
             android:name=".MenuNivel2"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".MenuNivel3"
             android:screenOrientation="sensorLandscape"></activity>
-        <activity android:name=".MenuNivel3"
-            android:screenOrientation="sensorLandscape">
+        <activity
+            android:screenOrientation="sensorLandscape"
+            android:name=".Creditos"
+            >
 
         </activity>
     </application>

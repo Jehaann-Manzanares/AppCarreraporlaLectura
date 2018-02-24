@@ -12,7 +12,7 @@ import android.widget.ImageView;
 
 public class MenuActivity extends metodos {
 
-    ImageView nivel1,nivel2,nivel3;
+    ImageView nivel1,nivel2,nivel3,btncreditos;
     Intent intent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +23,7 @@ public class MenuActivity extends metodos {
         nivel1 = (ImageView) findViewById(R.id.nivel1);
         nivel2 = (ImageView) findViewById(R.id.nivel2);
         nivel3 = (ImageView) findViewById(R.id.nivel3);
+        btncreditos = (ImageView) findViewById(R.id.btncreditos);
 
         audiofondo();
 
@@ -51,6 +52,16 @@ public class MenuActivity extends metodos {
             public void onClick(View view) {
                 audio();
                 intent = new Intent(getApplicationContext(),MenuNivel3.class);
+                startActivity(intent);
+
+            }
+        });
+
+        btncreditos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                audio();
+                intent = new Intent(getApplicationContext(),Creditos.class);
                 startActivity(intent);
 
             }
@@ -89,5 +100,18 @@ public class MenuActivity extends metodos {
     protected void onPause() {
         super.onPause();
         mp2.stop();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        mp2.start();
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+
+        mp2.start();
     }
 }

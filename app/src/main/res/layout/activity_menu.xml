@@ -5,16 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.te.unan.appestudianteswm.MenuActivity"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     android:background="@drawable/fondo_menu">
 
+
+
+
     <LinearLayout
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="150dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-
-
         >
 
 
@@ -47,6 +48,20 @@
             android:layout_marginRight="20pt"
 
             />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/btncreditos"
+            android:layout_width="215dp"
+            android:layout_height="115dp"
+
+            android:background="@drawable/btn_creditos" />
+
 
     </LinearLayout>
 
