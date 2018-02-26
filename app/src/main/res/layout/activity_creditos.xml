@@ -11,8 +11,8 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginLeft="250dp"
-        android:layout_marginRight="250dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginRight="240dp"
         android:layout_marginTop="100dp">
 
 
@@ -24,7 +24,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Creditos"
+                android:text="Créditos"
                 android:textAlignment="center"
                 android:textSize="50dp"
                 android:textStyle="bold"/>
@@ -39,7 +39,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Jehaann Carlos A. Manzanares Urcuyo"
+                android:text="Lic.Jehaann Carlos A. Manzanares Urcuyo"
                 android:textSize="25dp"
                 android:layout_marginTop="15dp"
                 />
@@ -65,7 +65,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Byron Clemente Mejia Carriòn"
+                android:text="Byron Clemente Mejia Carrión"
                 android:textSize="25dp"
                 android:layout_marginTop="15dp"
                 />
@@ -89,7 +89,7 @@
             <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Byron Clemente Mejia Carriòn"
+            android:text="Juan Josué Castro Martínez"
             android:textSize="25dp"
             android:layout_marginTop="15dp"
             />
@@ -109,13 +109,7 @@
                 android:layout_marginTop="15dp"
                 />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Juan Josue Castro Martinez"
-                android:textSize="25dp"
-                android:layout_marginTop="15dp"
-                />
+
         </LinearLayout>
 
     </ScrollView>

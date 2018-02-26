@@ -11,8 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="45dp"
-        android:layout_marginTop="160dp"
-        android:layout_marginRight="45dp">
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="160dp">
         <!--SCROLLVIEW PARA AGREGAR ACTIVIDADES -->
         <ScrollView
             android:layout_width="wrap_content"
@@ -21,8 +21,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginLeft="65dp">
+                android:layout_marginLeft="65dp"
+                android:orientation="horizontal">
 
                 <!--LINER PARA ORDENAR LAS ACTIVIDADES DE FORMA HORIZONTAL -->
                 <LinearLayout
@@ -41,8 +41,7 @@
                             android:layout_width="360dp"
                             android:layout_height="145dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/btn_completar1_n2"
-                            />
+                            android:background="@drawable/btn_completar1_n2" />
 
                         <ImageView
                             android:id="@+id/actividad11"
@@ -50,7 +49,6 @@
                             android:layout_height="145dp"
                             android:layout_marginRight="50dp"
                             android:background="@drawable/btn_crusigrama1_n2" />
-
 
 
                     </LinearLayout>
@@ -66,8 +64,7 @@
                             android:layout_width="360dp"
                             android:layout_height="145dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/btn_sopaletras_n2"
-                            />
+                            android:background="@drawable/btn_sopaletras_n2" />
 
                         <ImageView
                             android:id="@+id/actividad13"
@@ -92,6 +89,7 @@
                             android:background="@drawable/btn_relacionarcol_n2"
 
                             />
+
                         <ImageView
                             android:id="@+id/actividad15"
                             android:layout_width="360dp"
@@ -100,7 +98,6 @@
                             android:background="@drawable/btn_cuento_n2"
 
                             />
-
 
 
                     </LinearLayout>
@@ -118,6 +115,7 @@
                             android:background="@drawable/btn_presetacion1_n2"
 
                             />
+
                         <ImageView
                             android:id="@+id/actividad17"
                             android:layout_width="360dp"
@@ -126,7 +124,6 @@
                             android:background="@drawable/btn_presetacion2_n2"
 
                             />
-
 
 
                     </LinearLayout>
@@ -144,14 +141,13 @@
                             android:background="@drawable/btn_presetacion3_n2"
 
                             />
+
                         <ImageView
                             android:id="@+id/actividad19"
                             android:layout_width="360dp"
                             android:layout_height="145dp"
                             android:layout_marginRight="50dp"
-                            android:background="@drawable/btn_ruletapalabras_n2"
-                         />
-
+                            android:background="@drawable/btn_ruletapalabras_n2" />
 
 
                     </LinearLayout>
@@ -169,7 +165,6 @@
                             android:background="@drawable/btn_completar2_n2"
 
                             />
-
 
 
                     </LinearLayout>
